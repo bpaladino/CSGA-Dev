@@ -1,0 +1,15 @@
+#os or program files
+.DS store
+.tmproj
+
+#ignore main and secondary sites' index.php and admin.php files
+index.php
+admin.php
+*/index.php
+*/admin.php
+
+#ignore main and secondary sites' upload directories
+images/uploads/*
+media/*/uploads/*
+*/images/uploads/*
+*/media/*/uploads/*
